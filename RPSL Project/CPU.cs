@@ -18,18 +18,14 @@ namespace RPSL_Project
 
         public override void ChooseGesture()
         {
-            Random rng = new Random();
+            Random theguess = new Random();
 
-            int randomNumber = rng.Next(0, guessture.Count); // 
+            int randomNumber = theguess.Next(0, guessture.Count); // 
 
             Console.WriteLine(guessture[randomNumber]);
             chosenGesture = guessture[randomNumber];
 
-            //if( randomNumber == 0)
-            //{
-            //    Console.WriteLine(guessture[0]);
-            //    chosenGesture = guessture[0];
-            //}
+        
         }
     }
        

@@ -33,16 +33,20 @@ namespace RPSL_Project
             else if (input == "2")
             {
                 Console.WriteLine(guessture[1]);
+                chosenGesture = guessture[1];
 
             }else if (input == "3")
             {
                 Console.WriteLine(guessture[2]);
+                chosenGesture = guessture[2];
             }else if ( input == "4")
             {
                 Console.WriteLine(guessture[3]);
+                chosenGesture = guessture[3];
             }else if ( input == "5")
             {
                 Console.WriteLine(guessture[4]);
+                chosenGesture = guessture[4];
             }else
             {
                 Console.WriteLine("invlaid input");
