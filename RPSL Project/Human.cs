@@ -49,7 +49,7 @@ namespace RPSL_Project
                 chosenGesture = guessture[4];
             }else
             {
-                Console.WriteLine("invlaid input");
+                Console.WriteLine("invlaid input, Enter valid input");
             }
         }
 
