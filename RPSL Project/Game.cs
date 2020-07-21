@@ -65,6 +65,7 @@ namespace RPSL_Project
                     Console.WriteLine(" Rock crushes Scissors");
                     playerOne.playerOneScore++;
                 }
+
                 else if (playerOne.chosenGesture == "Rock" && playerTwo.chosenGesture == "Paper")
                 {
                     Console.WriteLine("Paper cover Rock");
@@ -75,23 +76,23 @@ namespace RPSL_Project
                     Console.WriteLine("Rock smashes Lizard");
                     playerOne.playerOneScore++;
                 }
-                else if (playerOne.chosenGesture == "Rock " && playerTwo.chosenGesture == "Spock")
+                else if (playerOne.chosenGesture == "Rock" && playerTwo.chosenGesture == "Spock")
                 {
                     Console.WriteLine("Spock Vaporizes Rock");
                     playerTwo.playerTwoScore++;
 
                 }
-                else if (playerOne.chosenGesture == "Spock " && playerTwo.chosenGesture == "Rock")
+                else if (playerOne.chosenGesture == "Spock" && playerTwo.chosenGesture == "Rock")
                 {
                     Console.WriteLine("Spock Vaporizes Rock");
                     playerTwo.playerTwoScore++;
                 }
-                else if (playerOne.chosenGesture == " Lizard" && playerTwo.chosenGesture == "Spock")
+                else if (playerOne.chosenGesture == "Lizard" && playerTwo.chosenGesture == "Spock")
                 {
                     Console.WriteLine("Lizard poisons Spock");
                     playerOne.playerOneScore++;
                 }
-                else if (playerOne.chosenGesture == " Scissor" && playerTwo.chosenGesture == "Paper")
+                else if (playerOne.chosenGesture == "Scissor" && playerTwo.chosenGesture == "Paper")
                 {
                     Console.WriteLine("Scissor cut Paper");
                     playerOne.playerOneScore++;
@@ -101,7 +102,7 @@ namespace RPSL_Project
                     Console.WriteLine("Draw");
 
                 }
-                else if (playerOne.chosenGesture == " Spock" && playerTwo.chosenGesture == "Scissor")
+                else if (playerOne.chosenGesture == "Spock" && playerTwo.chosenGesture == "Scissor")
                 {
                     Console.WriteLine("Spock Smasded Scissor");
                     playerOne.playerOneScore++;
@@ -111,7 +112,7 @@ namespace RPSL_Project
                     Console.WriteLine("Siccor decapitates Lizard");
                     playerOne.playerOneScore++;
                 }
-                else if (playerOne.chosenGesture == " Paper" && playerTwo.chosenGesture == "Paper")
+                else if (playerOne.chosenGesture == "Paper" && playerTwo.chosenGesture == "Paper")
                 {
                     Console.WriteLine("Draw");
 
